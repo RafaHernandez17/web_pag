@@ -137,41 +137,7 @@ body{
     }
 }
 /******************************Main Servicio*******************************************/
-@media (min-width:780px) {
-    .servicios{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-    }
-}
-.servicio{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.servicio .iconos{
-    height: 10rem;
-    width: 10rem;
-    background-color: var(--primario);
-    border-radius: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.servicio h3{
-    color: var(--secundario);
-}
-.servicio p{
-    line-height: 2;
-}
-.sombra{
-    -webkit-box-shadow: 10px 11px 17px 0px rgba(51,173,10,1);
-    -moz-box-shadow: 10px 11px 17px 0px rgba(51,173,10,1);
-    box-shadow: 10px 11px 17px 0px rgba(51,173,10,1);
 
-    background-color: var(--blanco);
-    padding: 2rem;
-    border-radius: 1rem;
-}   
 /******************************formulario*******************************************/
 .formulario{
     background-color: var(--gris);
